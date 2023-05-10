@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "NerdFonts extension",
+  "description": "List NerdFonts icons",
+  "developer_name": "mikamo3",
+  "icon": "img/nerd-fonts-character-logo-md.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "nerdfont_kw",
+      "type": "keyword",
+      "name": "Nerdfont",
+      "description": "List NerdFonts icons",
+      "default_value": "nf"
+    }
+  ]
+}
